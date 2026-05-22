@@ -7,7 +7,7 @@ from langchain_community.document_loaders import PyPDFDirectoryLoader
 from langchain.schema import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-DATA_PATH = "/Users/thompson/Desktop/RAG_cow/Data"
+DATA_PATH = "./Data"  # 相對於項目根目錄
 
 # ---------- 清理與 chunking ----------
 def clean_text(text):
