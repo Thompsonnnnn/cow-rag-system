@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data & Database
+chroma/
+*.sqlite3
+chunks.pkl
+
+# Temporary files
+~$*
+*.docx
+*.mov
+
+# Outputs (keep sample only)
+rag_outputs/*
+!rag_outputs/README.md
+LLM_only_成果/*
+RAG_結果/*
+RAG成果評估Prompt/*
+
+# Large files
+*.zip
+*.tar.gz
